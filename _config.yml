@@ -1,0 +1,19 @@
+# User config
+author: "Sandra Cortijo"
+tagline: "Sandra Cortijo"
+description: "Hey there! Welcome to my gallery!✨✨"
+keywords: "Gallery, Portfolio, Art"
+email: "pineapple@example.com"
+instagram: "https://www.instagram.com/"
+twitter: "https://twitter.com/"
+github: "https://github.com/"
+
+# Developer
+developerGH: "https://github.com/mavilam"
+
+
+# Site config
+highlighter: rouge
+sass:
+  sass_dir: assets/scss
+  style: compressed
