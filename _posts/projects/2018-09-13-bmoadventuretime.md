@@ -8,8 +8,8 @@ meta:
 
 project:
   title: "BMO, adventure time"
-  type: "Jekyll"
-  url: "https://github.com/arnolds/pineapple"
+  description: "<p>Bmo from adventure time!</p>"
+  url: "https://github.com/sancortijo"
   logo: "/assets/images/projects/bmoadventuretime/bmoLogo.jpg"
   materials: "Watercolor"
   year: "2018"
@@ -24,5 +24,3 @@ images:
     alt: "Yellow Pineapple website on tablet, mobile and desktop"
 
 ---
-
-<p>Bmo from adventure time!</p>
