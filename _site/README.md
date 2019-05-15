@@ -1,6 +1,6 @@
 # Sandra Cortijo Campos gallery
 
-Developed from [Pineapple](github.com:arnolds/pineapple.git)
+Based in the theme [@arnolds/Pineapple](https://github.com/arnolds/pineapple)
 
 ## License
 
