@@ -14,10 +14,6 @@ project:
   materials: "Pintura acrílica"
   year: "2018"
 
-price:
-  amount: "Vendido"
-  url: ""
-
 images:
   - image:
     url: "/assets/images/projects/jellyfish/jellyfish.jpg"
