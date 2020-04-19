@@ -30,7 +30,7 @@
 					<div class="project-meta">
 						<span class="h2">Materiales</span>
 						<p>{{ page.project.materials }}</p>
-						{% if page contains "prices" %}
+						{% if page.prices %}
 							<span class="h2">Precio</span>
 							{% for price in page.prices %}
 								<p><a title="{{ price.amount }}" href="{{ price.url }}" target="_blank" rel="nofollow">{{ price.amount }}</a></p>
