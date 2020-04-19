@@ -30,8 +30,12 @@
 					<div class="project-meta">
 						<span class="h2">Materiales</span>
 						<p>{{ page.project.materials }}</p>
-						<span class="h2">Precio</span>
-						<p><a title="{{ page.price.amount }}" href="{{ page.price.url }}" target="_blank" rel="nofollow">{{ page.price.amount }}</a></p>
+						{% if page contains "prices" %}
+							<span class="h2">Precio</span>
+							{% for price in page.prices %}
+								<p><a title="{{ price.amount }}" href="{{ price.url }}" target="_blank" rel="nofollow">{{ price.amount }}</a></p>
+							{% endfor %}
+						{% endif %}
 						<span class="h2">Fecha</span>
 						<p>{{ page.project.year }}</p>
 					</div>
