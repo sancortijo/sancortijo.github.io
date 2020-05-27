@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: mavilam/gh-pages # Branch to update (optional; defaults to master)
+  repo: mavilam/sancortijo.github.io # Branch to update (optional; defaults to master)
   api_root: https://api.github.com
   site_domain: https://mavilam.github.io/sancortijo.github.io/
   base_url: https://api.netlify.com 
