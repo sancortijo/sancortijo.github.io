@@ -2,10 +2,9 @@ backend:
   name: github
   repo: mavilam/gh-pages # Branch to update (optional; defaults to master)
   api_root: https://api.github.com
-  site_domain: mavilam.github.io/sancortijo.github.io
+  site_domain: https://mavilam.github.io/sancortijo.github.io/
   base_url: https://api.netlify.com 
   auth_endpoint: auth
-  local_backend: true
 
 media_folder: "assets/images/projects" # Media files will be stored in the repo under images/uploads
 
