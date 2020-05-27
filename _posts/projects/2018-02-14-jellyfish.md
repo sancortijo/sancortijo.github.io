@@ -3,9 +3,6 @@ layout: project
 permalink: /:title/
 category: projects
 
-meta:
-  keywords: "Jellyfish"
-
 project:
   title: "Jellyfish"
   description: "Medusa en el mar"
