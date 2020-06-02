@@ -1,7 +1,8 @@
 backend:
   name: github
-  repo: mavilam/sancortijo.github.io # Branch to update (optional; defaults to master)
-  branch: gh-pages
+  repo: sancortijo/sancortijo.github.io # Branch to update (optional; defaults to master)
+  branch: master
+  site_domain: sancortijo.netlify.app
 
 
 media_folder: "assets/images/projects/" # Media files will be stored in the repo under images/uploads
@@ -9,9 +10,11 @@ media_folder: "assets/images/projects/" # Media files will be stored in the repo
 collections:
   - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Post" # Used in the UI
+    extension: md
     folder: "_posts/projects" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    slug: "{{year}}-{{month}}-{{day}}-{{fields.project.title}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    summary: "{{filename}}"
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "project"}
       - {label: "permalink", name: "permalink", widget: "hidden", default: "/:title/"}
@@ -24,10 +27,17 @@ collections:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Description", name: "description", widget: "string"}
           - {label: "Logo", name: "logo", widget: "image"}
+          - {label: "Materials", name: "materials", widget: "string"}
           - {label: "Year", name: "year", widget: "string"}
+      - label: "Prices"
+        name: "prices"
+        widget: "list"
+        fields:
+          - {label: "Description amount", name: "amount", widget: "string"}
+          - {label: "Url (redbubble)", name: "url", widget: "string"}
       - label: "Images"
         name: "images"
         widget: "list"
         fields:
-          - {label: "Logo", name: "url", widget: "image"}
+          - {label: "Image", name: "url", widget: "image"}
           - {label: "Description", name: "alt", widget: "string"}
