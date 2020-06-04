@@ -7,7 +7,7 @@ project:
   title: "Elsa y los cuatro Elementos "
   description: Elsa usando su magia sobre los cuatro elementos que aparecen en la
     película Frozen 2
-  materials: Procreate
+  materials: Ilustración digital - Procreate
   year: "2020"
 prices: []
 images:
