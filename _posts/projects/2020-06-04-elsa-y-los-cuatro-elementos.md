@@ -14,5 +14,5 @@ images:
   - url: /assets/images/projects/elsa.jpg
     alt: "Elsa usando su magia sobre los cuatro elementos "
   - url: /assets/images/projects/elsa_zoom.jpg
-    alt: Detalles Elsa
+    alt: "Detalle Elsa "
 ---
