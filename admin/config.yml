@@ -1,14 +1,14 @@
 backend:
   name: github
-  repo: sancortijo/sancortijo.github.io # Branch to update (optional; defaults to master)
+  repo: sancortijo/sancortijo.github.io
   branch: master
   site_domain: sancortijo.netlify.app
 
 
-media_folder: "assets/images/projects/" # Media files will be stored in the repo under images/uploads
+media_folder: "assets/images/projects/" 
 
 collections:
-  - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
+  - name: "post" 
     label: "Post" # Used in the UI
     extension: md
     folder: "_posts/projects" # The path to the folder where the documents are stored
