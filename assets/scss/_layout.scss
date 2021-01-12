@@ -91,6 +91,7 @@
 
 		&:hover {
 			.img-wrapper {
+				border-radius: 10px;
 				&:before {
 					opacity: 1;
 				}
