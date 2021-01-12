@@ -101,11 +101,19 @@
 		}
 	}
 
+	.index-img {
+		width: 300px;
+		height: 300px;
+		border-radius: 10px;
+		object-fit: cover;
+	}
+
 	.img-wrapper {
 		position: relative;
+		width: 300px;
 
 		&:before {
-			content: "View Project";
+			content: "Ver Proyecto";
 			color: $color-white;
 			@extend .h2;
 			font-weight: 800;
