@@ -1,7 +1,7 @@
 ---
 layout: project
 permalink: /:title/
-category: projects
+category: traditional
 project:
   title: Wonder Woman
   description: Gal Gadot como Wonder Woman

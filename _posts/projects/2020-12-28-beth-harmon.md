@@ -1,7 +1,7 @@
 ---
 layout: project
 permalink: /:title/
-category: projects
+category: digital
 project:
   title: Beth Harmon
   description: Beth Harmon de Gambito de Dama

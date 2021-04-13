@@ -1,7 +1,7 @@
 ---
 layout: project
 permalink: /:title/
-category: projects
+category: traditional
 
 meta:
   keywords: "Jellyfish"

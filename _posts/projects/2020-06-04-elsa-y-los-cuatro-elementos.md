@@ -1,7 +1,7 @@
 ---
 layout: project
 permalink: /:title/
-category: projects
+category: digital
 project:
   logo: /assets/images/projects/elsa-frozen.jpg
   title: "Elsa y los cuatro Elementos "

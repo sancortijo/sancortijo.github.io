@@ -1,7 +1,7 @@
 ---
 layout: project
 permalink: /:title/
-category: projects
+category: digital
 project:
   title: Scott y Ramona Halloween
   description: Scott Pilgrim y Ramona Flowers Halloween party
